@@ -1,0 +1,158 @@
+body { 
+	max-width: 1000px;
+	margin: 0 auto;
+	font-family: open sans;
+	letter-spacing: 1px;
+	padding-top: 50px;
+ }
+
+h1 {
+	color: #a2c4c9;
+	font-size: 40px;
+	letter-spacing: 2px;
+	/*font-family: 'Medula One', cursive;   CHANGE FONT TO 50PX*/
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	float: left;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+h2 {
+	font-size: 50px;
+	font-family: 'Grand Hotel', cursive;
+	color: #ffd49d;
+	padding-left: 15px;
+    margin-bottom: 0px;
+}
+
+
+h3 {
+	color: #a2c4c9;
+	font-size: 40px;
+}
+
+header {
+	margin: 0 auto;
+	width: 100%;
+	height:100px;
+	background-size: cover;
+
+}
+
+nav {
+	float: right;
+	padding: 40px 0px; 
+  
+}
+nav ul {
+	padding: 0px;
+	margin: 0px;
+	
+}
+nav ul li{
+	display: inline;
+	padding-left: 20px;
+    margin: 0px 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: open sans;
+	color: gray;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+nav a {
+	text-decoration: none;
+	color: gray;
+}
+
+.top-section {
+    width: 100%;
+	float: left;
+}
+
+.hero-image img{
+	width:1000px;
+	height: auto;
+    border-radius: 30px;
+}
+
+#work , #contact, #hire {
+	padding: 20px 0;
+	border-top: 1px dotted;
+    float: left;
+    clear: both;
+    width: 100%;
+}
+/*
+#hire {
+	text-align: center;
+} */
+
+p {
+	padding: 15px;
+    line-height: 2.5;
+}
+span {
+	font-weight: bold;
+	
+}
+
+.half-width {
+	width: 48%;
+	float: left;
+	text-align: justify;
+	padding: 0px 10px;
+}
+
+
+.project img {
+	border:1px solid #ccc;
+	margin-bottom:5px;
+}
+
+.project {
+	clear: all;
+	float: left;
+	width: 310px;
+	overflow: hidden;
+	margin: 10px 10px 10px 10px;
+    text-align: left;
+    font-family: open sans;
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+.project h3 {
+    font-size: 20px;
+}
+.project p {
+	padding:0;
+}
+.project span {
+	font-weight: bold;
+}
+
+#contact span {
+	
+}
+#contact a {
+	text-decoration: none;
+	color:#a2c4c9;
+}
+
+#footer {
+	max-width: 1000px;
+	background-color: #a2c4c9;
+	margin:0 auto;
+	padding:0px;
+  	margin-top: 300px;
+  	clear: both;
+}
+
+#footer p {
+	margin:0 auto;
+	padding:0;
+}
